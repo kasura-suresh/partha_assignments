@@ -1,0 +1,88 @@
+#include<iostream>
+using namespace std;
+struct Node
+{
+	int data;
+	Node *next;
+}*top=NULL,*p;
+Node* newnode(int x)
+{
+	p=new Node;
+	p->data=x;
+	p->next=NULL;
+	return(p);
+}
+void push(Node *q)
+{
+	if(top==NULL)
+		top=q;
+	else
+	{
+		q->next=top;
+		top=q;
+	}
+}
+void pop()
+{
+	if(top==NULL){
+		cout<<"Stack is empty!!";
+	}
+	else{
+		cout<<"Deleted element is "<<top->data;
+		p=top;
+		top=top->next;
+		delete(p);
+	}
+}
+void showstack()
+{
+	Node *q;
+	q=top;
+ 
+	if(top==NULL){
+		cout<<"Stack is empty!!";
+	}
+	else{
+		while(q!=NULL)
+		{
+			cout<<q->data<<" ";
+			q=q->next;
+		}		
+	}
+}
+int main()
+{
+	int c,x;
+	Node *nptr;
+	
+	while(1)
+	{
+		cout<<"1.Push\n";
+		cout<<"\n2.Pop\n";
+		cout<<"\n3.Display\n";
+		cout<<"\n4.Exit\n";
+		cout<<"\nEnter your choice:\n";
+		cin>>c;
+		
+		switch(c){
+			case 1: cout<<"\nEnter data:";
+					cin>>x;
+					nptr=newnode(x);
+					push(nptr);
+					break;
+			
+			case 2: pop();
+					break;
+					
+			case 3: showstack();
+					break;
+			
+			case 4: 
+					cout<<"Happy to see you again..bye \n";
+					exit(0);
+			
+			default: cout<<"\nenter a correct choice\n";
+		}
+	}
+	return 0;
+}
