@@ -41,7 +41,7 @@ void display()
 	
 	if(start == NULL)
 	{
-		cout<<"\nThere is no element in the list..\n";
+		cout<<"\nThere is no element in the list..\n\n\n";
 	}
 	else{
 		ptr = start;
@@ -50,14 +50,14 @@ void display()
 			cout<<ptr->data<<"-->";
 			ptr = ptr->next;
 		}
-		cout<<"NULL\n";
+		cout<<"NULL\n\n\n\n\n";
 	}
 }
 
 void display_reverse(){
 	node *last;
 	if(start == NULL)
-		cout<<"list is empty\n";
+		cout<<"\nlist is empty\n\n\n";
 	else{
 		last = start;
 		while(last->next!=NULL)
@@ -66,7 +66,7 @@ void display_reverse(){
 			cout<<last->data<<"-->";
 			last = last->prev;
 		}
-	cout<<"NULL\n";	
+	cout<<"NULL\n\n\n\n\n";	
 }
 }
 
