@@ -1,3 +1,11 @@
+/*********************************************
+ Program to check a number is power of teo oe not
+ using bitwise operator 
+ (Given by Suresh sir)
+ Author-- Partha Pratim Dey
+ 
+*********************************************/
+
 #include<stdio.h>
 
 void isPowerOfTwo(int num){

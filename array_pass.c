@@ -1,3 +1,10 @@
+/*********************************************
+ Program to pass an array within a function
+ (Given by Suresh sir)
+ Author-- Partha Pratim Dey
+ 
+*********************************************/
+
 #include<stdio.h>
 void print_array(int arr[],int n)
 {

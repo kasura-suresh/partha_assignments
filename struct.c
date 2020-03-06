@@ -1,3 +1,10 @@
+/*********************************************
+ Program to check the sizeof the structure and it
+ is vary
+ (Given by Suresh sir)
+ Author-- Partha Pratim Dey
+ 
+*********************************************/
 #include<stdio.h>
 struct node1{
 	short s1;

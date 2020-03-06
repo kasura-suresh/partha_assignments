@@ -1,3 +1,8 @@
+/*******************************************************
+	Program to know the besic concept of dataType
+	(Given by Suresh sir)
+	Author--Partha Pratim Dey
+************************************************************/  
 #include<stdio.h>
 int main()
 {
