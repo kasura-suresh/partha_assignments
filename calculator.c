@@ -1,3 +1,9 @@
+/************************************************
+	Simple Basic Calculator Using Switch Case
+	Author-- Partha Pratim Dey
+	
+**************************************************/
+
 #include<stdio.h>
 
 void add(float i,float j)
