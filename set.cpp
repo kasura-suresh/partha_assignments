@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement set in STL
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 #include<set>
 using namespace std;

@@ -1,4 +1,10 @@
+/*************************************************
+	program to use calloc 
+	Author-- Partha Pratim Dey
+*************************************************/
+
 #include<iostream>
+#include<stdlib.h>
 using namespace std;
 int main ()
 {

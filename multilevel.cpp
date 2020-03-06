@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement multilevel inheritance
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 using namespace std;
 

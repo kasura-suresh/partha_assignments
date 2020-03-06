@@ -1,4 +1,12 @@
+/*************************************************
+
+	program to delete a node from a particular possition
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
+#include<stdlib.h>
 using namespace std;
 
 struct node

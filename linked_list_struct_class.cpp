@@ -1,4 +1,13 @@
+/*************************************************
+
+	program to implement llinked list using structure
+	and class
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include <iostream>
+#include<stdlib.h>
 using namespace std;
 struct Node {
    int data;
@@ -8,7 +17,7 @@ struct Node* head = NULL;
 
 class L
 {
-    public:
+public:
   void insert(int new_data) {
    struct Node* new_node = (struct Node*) malloc(sizeof(struct Node));
    new_node->data = new_data;

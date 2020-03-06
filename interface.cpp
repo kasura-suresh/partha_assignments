@@ -1,5 +1,11 @@
+/*************************************************
+
+	program to implement interface
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include <iostream>
- 
 using namespace std;
 class Shape 
 {
@@ -51,6 +57,5 @@ int main(void)
    Tri.setW(tW);
    Tri.setH(tH);
    cout << "Total Triangle area: " << Tri.getArea() << endl; 
-
    return 0;
 }

@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement usefull array alogithm
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 #include<algorithm>
 using namespace std;

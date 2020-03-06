@@ -1,3 +1,8 @@
+/*************************************************
+	program to implement deep copy
+	Author-- Partha Pratim Dey
+*************************************************/
+
 #include<iostream>
 using namespace std;
 

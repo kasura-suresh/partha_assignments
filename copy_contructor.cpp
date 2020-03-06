@@ -1,3 +1,8 @@
+/*************************************************
+	program to implement copy constructor
+	Author-- Partha Pratim Dey
+*************************************************/
+
 #include<iostream>
 using namespace std;
 class A

@@ -1,5 +1,14 @@
+/*************************************************
+
+	program to implement stack using linkedlist
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
+#include<stdlib.h>
 using namespace std;
+
 struct Node
 {
 	int data;

@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement explicit constructor
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 using namespace std;
 

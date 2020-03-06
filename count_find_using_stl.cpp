@@ -1,3 +1,8 @@
+/*************************************************
+	program to use count and find function in stl
+	Author-- Partha Pratim Dey
+*************************************************/
+
 #include<iostream>
 #include<algorithm>
 #include<vector>

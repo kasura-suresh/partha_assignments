@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement forward list
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream> 
 #include<forward_list>  
 using namespace std;

@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement stack using STL
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 #include<stack>
 using namespace std;

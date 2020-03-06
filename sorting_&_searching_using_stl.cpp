@@ -1,3 +1,11 @@
+/*************************************************
+
+	program to implement sorting and searching 
+	using STL
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 #include<algorithm>
 using namespace std;

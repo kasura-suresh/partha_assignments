@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement function pointer
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 using namespace std;
 int show_multiple(int x,int y){

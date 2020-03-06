@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement virtual function 
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 using namespace std;
 

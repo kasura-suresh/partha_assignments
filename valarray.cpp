@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement valarray in STL
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 #include<valarray>
 #include<algorithm>

@@ -1,6 +1,12 @@
+/*************************************************
+
+	program to implement vector in string
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include <iostream>
 #include<vector>
-
 using namespace std;
 
 int main()

@@ -1,4 +1,11 @@
-#include<iostream>
+/*************************************************
+
+	program to implement queue using linkedlist
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
+ #include<iostream>
 #include<stdlib.h>
 using namespace std;
 struct node

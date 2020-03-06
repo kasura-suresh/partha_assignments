@@ -1,4 +1,12 @@
+/*************************************************
+
+	program to implement new and delete key word
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include <iostream>
+#include<stdlib.h>
 using namespace std;
 int main () 
 {

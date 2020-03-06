@@ -1,4 +1,11 @@
-#include<iostream>
+/*************************************************
+
+	program to implement templatized class
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
+  #include<iostream>
 using namespace std;
 
 template <class C>

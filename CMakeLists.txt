@@ -133,3 +133,9 @@ add_executable(assign41 ${ASSIGNMENT_SOURCE41})
 
 set(ASSIGNMENT_SOURCE42 function_pointer.cpp)
 add_executable(assign42 ${ASSIGNMENT_SOURCE42})
+
+set(ASSIGNMENT_SOURCE43 virtual_read_write.cpp)
+add_executable(assign43 ${ASSIGNMENT_SOURCE43})
+
+set(ASSIGNMENT_SOURCE44 array_swap.cpp)
+add_executable(assign44 ${ASSIGNMENT_SOURCE44})

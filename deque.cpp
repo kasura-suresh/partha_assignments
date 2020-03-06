@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement dqueue
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 #include<deque>
 #include<algorithm>

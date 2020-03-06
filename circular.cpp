@@ -1,3 +1,8 @@
+/*************************************************
+	program of besic calculator using switch case
+	Author-- Partha Pratim Dey
+*************************************************/
+
 #include<iostream>
 using namespace std;
 

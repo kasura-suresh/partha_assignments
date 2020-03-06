@@ -1,3 +1,8 @@
+/*************************************************
+	program to implememnt class inheritance
+	Author-- Partha Pratim Dey
+*************************************************/
+
 #include<iostream>
 using namespace std;
 class Animal

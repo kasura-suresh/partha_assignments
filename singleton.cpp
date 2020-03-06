@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement singleton class
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 using namespace std;
 

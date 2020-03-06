@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement parameterized constructor
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 using namespace std;
 class A

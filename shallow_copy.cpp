@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement shallow_copy()
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 using namespace std;
 class Base

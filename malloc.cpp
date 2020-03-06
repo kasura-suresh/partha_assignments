@@ -1,4 +1,12 @@
+/*************************************************
+
+	program to implement malloc() function
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
+#include<stdlib.h>
 using namespace std;
 int main()
 {

@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement multiple inheritance
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 using namespace std;
 

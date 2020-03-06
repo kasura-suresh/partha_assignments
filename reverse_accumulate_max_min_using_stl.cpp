@@ -1,5 +1,14 @@
+/*********************************************************
+
+	program to implement reverse accumulator max_alement() 
+	and min_element() in STL
+	Author-- Partha Pratim Dey
+	
+*********************************************************/
+
 #include<iostream>
 #include<algorithm>
+#include <numeric>
 #include<vector>
 using namespace std;
 

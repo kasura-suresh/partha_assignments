@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement map (STL)
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 #include<map>
 using namespace std;

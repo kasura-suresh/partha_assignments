@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement list (STL)
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 #include<list>
 #include<algorithm>

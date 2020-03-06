@@ -1,12 +1,19 @@
+/*************************************************
+
+	program to implement operator overloading
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include <iostream>    
 using namespace std;    
 class A    
 {       
    public:
    	    int num;     
-        A(int i)
+        A(int n)
 		{
-			num = i;
+			num = n;
 		}   
         void operator ++() 
 		{     
@@ -21,7 +28,7 @@ int main()
     int n;
     cout<<"Enter the number:\n";
     cin>>n;
-	A obj(n);
+    A obj(n);
     ++obj;
     obj.Print();
 	    

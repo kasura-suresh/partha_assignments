@@ -1,3 +1,10 @@
+/*************************************************
+
+	program to implement priprity queue
+	Author-- Partha Pratim Dey
+	
+*************************************************/
+
 #include<iostream>
 #include<queue>
 
