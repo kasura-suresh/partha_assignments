@@ -10,10 +10,10 @@
 using namespace std;
 int main()
 {
-	map<int,int> ml1;
+	multimap<int,int> ml1;
 	ml1.insert(pair<int,int>(1,45));
 	ml1.insert(pair<int,int>(2,35));
-	ml1.insert(pair<int,int>(3,98));
+	ml1.insert(pair<int,int>(4,98));
 	ml1.insert(pair<int,int>(4,4));
 	cout<<"Keys and the values of multimap1:\n";
 	for(auto i = ml1.begin();i!=ml1.end();i++)
