@@ -10,7 +10,7 @@
 using namespace std;
 int main()
 {
-	multimap<int,int> ml1;
+	multimap<int,int> ml1; // This is multimap
 	ml1.insert(pair<int,int>(1,45));
 	ml1.insert(pair<int,int>(2,35));
 	ml1.insert(pair<int,int>(4,98));
@@ -20,7 +20,7 @@ int main()
 	{
 		cout<<i->first<<"-->"<<i->second<<endl;
 	}
-	map<int,int> ml2(ml1.begin(),ml1.end());
+	map<int,int> ml2(ml1.begin(),ml1.end());// creatting a map just to see the difference
 	cout<<"\nAfter copying from multimap 1 key and values are:\n";
 	for(auto i = ml2.begin();i!=ml2.end();i++)
 	{
